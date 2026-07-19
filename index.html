@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jay Ghadiya - Full Stack Developer Intern & Computer Engineering Student. View my projects, skills, education, and achievements.">
+    <title>Jay Ghadiya | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Header -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Jay<span class="logo-highlight">Ghadiya</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-greeting">Hi, my name is</span>
+                <h1 class="hero-name">Jay Ghadiya</h1>
+                <h2 class="hero-title">Full Stack Developer Intern</h2>
+                <p class="hero-description">
+                    Computer Engineering student at Pandit Deendayal Energy University. I specialize in building responsive, efficient, and user-centric full-stack web applications with modern frontend and backend technologies.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/jayghadiya09" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jay-ghadiya-pdpu" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/jayghadiya/?hl=af" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:jaypatel09112005@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+                    <a href="tel:+918141572247" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-frame">
+                    <img src="photo2.jpg" alt="Jay Ghadiya Profile Photo" class="hero-image">
+                    <div class="floating-badge">
+                        <i class="fas fa-code"></i>
+                        <span>Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down-indicator">
+            <a href="#education" aria-label="Scroll Down">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow-icon"><i class="fas fa-chevron-down"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Learning Path</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-underline"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- PDEU -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Pandit Deendayal Energy University</h3>
+                        <p class="timeline-degree">B.Tech in Computer Engineering</p>
+                        <div class="timeline-gpa"><strong>CGPA:</strong> 8.68</div>
+                    </div>
+                </div>
+                
+                <!-- Class XII -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Sanskardeep Vidhya Sankul, Surat</h3>
+                        <p class="timeline-degree">Class XII Science</p>
+                        <div class="timeline-score"><strong>Result:</strong> 79%</div>
+                    </div>
+                </div>
+
+                <!-- Class X -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Harekrushana International School, Surat</h3>
+                        <p class="timeline-degree">Class X</p>
+                        <div class="timeline-score"><strong>Result:</strong> 85.5%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Professional Background</span>
+                <h2 class="section-title">Experience & Internships</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="experience-card">
+                <div class="exp-header">
+                    <div class="exp-title-group">
+                        <h3>Full Stack Developer Intern</h3>
+                        <h4 class="company">Hari Krishna Solution</h4>
+                    </div>
+                    <div class="exp-meta">
+                        <span class="exp-date"><i class="far fa-calendar-alt"></i> May 2026 – Jul 2026</span>
+                        <span class="exp-location"><i class="fas fa-map-marker-alt"></i> Surat, Gujarat</span>
+                    </div>
+                </div>
+                <div class="exp-body">
+                    <ul class="exp-bullets">
+                        <li>Developed responsive full-stack web applications using modern frontend and backend technologies.</li>
+                        <li>Built interactive frontend interfaces, integrated REST APIs, managed databases, and implemented secure user authentication mechanisms.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Creative Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: QuizNest -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-brain"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/jayghadiya09" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="https://quiz-nest-six.vercel.app" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">QuizNest – AI online exam platform</h3>
+                        <p class="project-timeline">May 2026 – Jul 2026</p>
+                        <p class="project-text">
+                            An AI-powered online examination platform with Student, Teacher, and Admin portals, featuring AI-assisted question generation, role-based authentication, and exam management.
+                        </p>
+                        <p class="project-text">
+                            Implemented JWT-based authentication, automatic evaluation, result tracking, responsive dashboards, and REST APIs for a secure and user-friendly experience.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>JWT</span>
+                            <span>AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Agricultural Farm Management -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-tractor"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/jayghadiya09" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="https://farm-mangement.netlify.app" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Agricultural Farm Management Platform</h3>
+                        <p class="project-timeline">Oct 2025 – Dec 2025</p>
+                        <p class="project-text">
+                            A web platform designed to help farmers manage crop information and monitor farming activities efficiently.
+                        </p>
+                        <p class="project-text">
+                            Implemented a highly responsive and intuitive user interface to enhance accessibility and improve the overall user experience for farmers.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>ReactJS</span>
+                            <span>NodeJS</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: LogiCore Supply Chain Engine -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-truck"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/jayghadiya09" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">LogiCore Supply Chain Engine</h3>
+                        <p class="project-timeline">Mar 2025 – May 2025</p>
+                        <p class="project-text">
+                            A database-driven logistics management system for shipment, warehouse, vehicle, and inventory management.
+                        </p>
+                        <p class="project-text">
+                            Designed a normalized relational database to ensure accurate data management and efficient operations, optimizing data storage and SQL queries to improve performance.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech">
+                            <span>MySQL</span>
+                            <span>Relational Database</span>
+                            <span>SQL Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What I Know</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skills-category-card">
+                    <div class="skills-cat-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skills-category-card">
+                    <div class="skills-cat-header">
+                        <i class="fas fa-cubes"></i>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">ReactJS</span>
+                        <span class="skill-tag">ExpressJS</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skills-category-card">
+                    <div class="skills-cat-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 4 -->
+                <div class="skills-category-card">
+                    <div class="skills-cat-header">
+                        <i class="fas fa-book"></i>
+                        <h3>Relevant Coursework</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Object Oriented Programming</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">Database Management System</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-interest">
+                <h3>Area of Interest: <span class="interest-highlight">Full Stack Web Development</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Milestones & Honors</span>
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="achievements-list">
+                <!-- Achievement 1 -->
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Competitive Programming</h3>
+                        <p>Solved 500+ DSA problems across LeetCode and CodeChef.</p>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Aspire Leaders Program</h3>
+                        <p>Selected for the Aspire Leaders Program, a global leadership initiative by Harvard faculty.</p>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>FFE and Wagh Bakri Scholarship</h3>
+                        <p>Awarded FFE and Wagh Bakri Scholarship for academic excellence and merit-based selection.</p>
+                    </div>
+                </div>
+
+                <!-- Achievement 4 -->
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>NPTEL Certification</h3>
+                        <p>Completed a certified 12-week NPTEL course on Understanding Incubation and Entrepreneurship.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-info-panel">
+                    <h3>Let's Connect!</h3>
+                    <p>I am always looking for opportunities, collaborations, or simply interesting tech discussions. Feel free to reach out to me through any of the channels below.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="cd-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="cd-text">
+                                <span>Email</span>
+                                <a href="mailto:jaypatel09112005@gmail.com">jaypatel09112005@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="cd-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="cd-text">
+                                <span>Phone</span>
+                                <a href="tel:+918141572247">+91 8141572247</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="cd-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="cd-text">
+                                <span>LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/jay-ghadiya-pdpu" target="_blank">linkedin.com/in/jay-ghadiya-pdpu</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="cd-icon"><i class="fab fa-github"></i></div>
+                            <div class="cd-text">
+                                <span>GitHub</span>
+                                <a href="https://github.com/jayghadiya09" target="_blank">github.com/jayghadiya09</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="cd-icon"><i class="fab fa-instagram"></i></div>
+                            <div class="cd-text">
+                                <span>Instagram</span>
+                                <a href="https://www.instagram.com/jayghadiya/?hl=af" target="_blank">instagram.com/jayghadiya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form id="contact-form" class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! (This is a local demonstration form)');">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="Your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Your message details..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; <span id="current-year">2026</span> Jay Ghadiya. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/jayghadiya09" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jay-ghadiya-pdpu" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/jayghadiya/?hl=af" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:jaypatel09112005@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
